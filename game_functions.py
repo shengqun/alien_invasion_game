@@ -24,21 +24,21 @@ def check_events(ship):
         elif event.type == pygame.KEYDOWN:
             check_keydown_events(event, ship)
         elif event.type == pygame.KEYUP:
-            check_keydown_events(event, ship)
+            check_keyup_events(event, ship)
         # elif event.type == pygame.KEYDOWN:
             # if event.key == pygame.K_RIGHT:
-                向右移动标志置位
+                # 向右移动标志置位
                 # ship.moving_right = True
             # elif event.key == pygame.K_LEFT:
-                向左移动标志置位
+                # 向左移动标志置位
                 # ship.moving_left = True
                 
         # elif event.type == pygame.KEYUP:
             # if event.key == pygame.K_RIGHT:
-                向右移动标志复位
+                # 向右移动标志复位
                 # ship.moving_right = False
             # elif event.key == pygame.K_LEFT:
-                向左移动标志复位
+                # 向左移动标志复位
                 # ship.moving_left = False
 
                 
